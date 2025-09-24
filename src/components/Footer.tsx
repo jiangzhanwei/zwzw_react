@@ -1,27 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// =====================
-// Styled Components
-// =====================
 const FooterWrapper = styled.footer`
   width: 100%;
-  background: #24292e;
+  background-color: #24292e;
   color: #aaa;
   text-align: center;
-  padding: 80px 0;
-  margin-top: auto;
+  padding: 16px 0;
   font-size: 0.9rem;
-  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  margin-top: auto;       /* 保证内容少时也贴底 */
 `
 
-// =====================
-// Component
-// =====================
 const Footer: React.FC = () => {
   return (
     <FooterWrapper>
-      © {new Date().getFullYear()} All rights reserved.
+      © {new Date().getFullYear()} MyApp. All rights reserved.
     </FooterWrapper>
   )
 }
