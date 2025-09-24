@@ -14,7 +14,7 @@ const FooterWrapper = styled.footer`
 const Footer: React.FC = () => {
   return (
     <FooterWrapper>
-      © {new Date().getFullYear()} MyApp. All rights reserved.
+      © {new Date().getFullYear()} （◉ᴗ◉）. All rights reserved.
     </FooterWrapper>
   )
 }

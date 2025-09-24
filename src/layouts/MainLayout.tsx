@@ -10,11 +10,11 @@ import styled from 'styled-components'
 const LayoutWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;   /* 页面撑满整个视口高度 */
+  min-height: 100vh;
 `
 
 const MainContent = styled.main`
-  flex: 1;             /* 占满 Header 和 Footer 之间的空间 */
+  flex: 1;
 `
 
 const MainLayout: React.FC = () => {

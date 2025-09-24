@@ -34,10 +34,10 @@ const Nav = styled.nav`
 const Header: React.FC = () => {
   return (
     <HeaderWrapper>
-      <Logo>MyApp</Logo>
+      <Logo>（◉ᴗ◉）</Logo>
       <Nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
+        <a href="/">TWITTER</a>
+        <a href="/">GITHUB</a>
       </Nav>
     </HeaderWrapper>
   )
