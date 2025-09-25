@@ -36,8 +36,9 @@ const Header: React.FC = () => {
     <HeaderWrapper>
       <Logo>（◉ᴗ◉）</Logo>
       <Nav>
-        <a href="/">TWITTER</a>
-        <a href="/">GITHUB</a>
+        <a href="https://x.com/0xzwzw" target='_blank'>TWITTER</a>
+        <a href="https://github.com/jiangzhanwei" target='_blank'>GITHUB</a>
+        
       </Nav>
     </HeaderWrapper>
   )
